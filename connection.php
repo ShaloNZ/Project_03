@@ -9,7 +9,7 @@ class Database
     {
 
         if (!isset(Database::$connection)) {
-            Database::$connection = new mysqli("localhost", "root", "Kodisingha@12", "viva_app_01", "3306");
+            Database::$connection = new mysqli("localhost", "root", "shalon@12", "viva_app_01", "3306");
         }
     }
 
