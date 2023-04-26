@@ -1,0 +1,101 @@
+* {
+    font-family: Arial;
+    font-size: 16px;
+}
+
+.open_page_div {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(12, 3, 51, 0.3), rgba(12, 3, 51, 0.3));
+}
+
+.back-video {
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+    padding: 0;
+}
+
+.All_hover:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.login_logo {
+    height: 140px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("resources/logo_and_images/logo.webp");
+}
+
+.home_main_div1 {
+    background-image: url("resources/men.jpg");
+    height: 84vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home_main_div2 {
+    background-image: url("resources/kid.jpg");
+    height: 84vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home_main_div3 {
+    background-image: url("resources/women.jpg");
+    height: 84vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tracking_page_bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.373), rgba(0, 0, 0, 0.186), rgba(0, 0, 0, 0.356)), url("resources/tracking_page.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.admin_Login_bg {
+    background-image: url("resources/adminlogin.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo1 {
+    height: 100px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("resources/brand_logo/Under-Armour.png");
+}
+
+.logo2 {
+    background-image: url("resources/brand_logo/adidas.png");
+}
+
+.logo3 {
+    background-image: url("resources/brand_logo/chanel_.png");
+}
+
+.logo4 {
+    background-image: url("resources/brand_logo/Mango.png");
+}
+
+.logo5 {
+    background-image: url("resources/brand_logo/nike.png");
+}
+
+.logo6 {
+    background-image: url("resources/brand_logo/puma.png");
+}
